@@ -1,0 +1,14 @@
+.header{
+    backdrop-filter: blur(15px);
+    position: sticky;
+    top: 0;
+}
+
+.header-content{
+    align-items: center;
+    block-size: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+}

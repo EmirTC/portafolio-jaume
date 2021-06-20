@@ -1,0 +1,13 @@
+.wrapper{
+    max-inline-size: 1158px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    margin: auto;
+}
+
+@media screen and (min-width:1024px) {
+    .wrapper{
+        padding-inline-start: 32px;
+        padding-inline-end: 32px;
+    }   
+}

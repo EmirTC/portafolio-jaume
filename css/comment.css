@@ -1,0 +1,46 @@
+.comment{
+    background: rgba(255, 255, 255, .2);
+    border: 4px solid var(--white);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: auto;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    max-inline-size: 328px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+}
+
+.comment-image{
+    align-self: center;
+}
+
+.comment-text{
+    font: var(--bodyBold);
+}
+
+.comment-quote{
+    font: var(--caption);
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 768px){
+    .comment{
+        margin-block-start: 80px;
+        margin-block-end: 80px;
+        max-inline-size: 900px;
+        text-align: center;
+    }
+
+    .comment-text{
+        font: var(--headline4Bold);
+    }
+    
+    .comment-quote{
+        font: var(--headline5)
+    }
+}

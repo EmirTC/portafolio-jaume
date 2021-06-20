@@ -1,0 +1,32 @@
+.about-me{
+    margin: auto;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    max-inline-size: 900px;
+}
+
+.about-me h2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin: auto;
+}
+
+.about-me-text.is-primary{
+    font: var(--headline6);
+}
+
+.about-me-text.is-secondary{
+    font: var(--headline5);
+}
+
+@media screen and (min-width: 1024px) {
+    .about-me{
+        margin-block-start: 120px;
+        margin-block-end: 120px;
+    }
+    .about-me-text.is-primary{
+        font: var(--headline5Oxygen);
+    }
+}

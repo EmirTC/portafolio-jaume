@@ -1,0 +1,61 @@
+@import './header.css';
+@import './menu.css';
+@import './button.css';
+@import './button-icon.css';
+@import './hero.css';
+@import './social.css';
+@import './wrapper.css';
+@import './about-me.css';
+@import './projects.css';
+@import './title.css';
+@import './comment.css';
+@import './form.css';
+@import './footer.css';
+
+:root{
+
+    /* Font variables*/
+    --fontFamily: 'Poppins', sans-serif;
+    --fontFamilyOxygen: 'Oxygen', sans-serif;
+    --headline1: bold 95px/154px var(--fontFamily);
+    --headline2: bold 59px/95px var(--fontFamily);
+    --headline3: bold 48px/77px var(--fontFamily);
+    --headline4: bold 34px/55px var(--fontFamily);
+    --headline4Bold: bold 34px/55px var(--fontFamilyOxygen);
+    --headline5: bold 24px/38px var(--fontFamily);
+    --headline5Oxygen: bold 24px/38px var(--fontFamilyOxygen);
+    --headline6: 24px/38px var(--fontFamily);
+    --body1: 16px/25px var(--fontFamily);
+    --body2: 14px/22px var(--fontFamily);
+    --bodyBold: bold 16px/25px var(--fontFamilyOxygen);
+    --button: bold 14px/22px var(--fontFamily);
+    --caption: 12px/19px var(--fontFamily);
+
+    /* Color variables */
+    --gray: #858C94;
+    --green: #42E2B8;
+    --purple: #310A90;
+    --red: #DA1414;
+    --white: #FFFFFF;
+
+    --xs: 320px;
+    --sm: 768px;
+    --md: 1024px;
+    --lg: 1280px;
+    --xl: 1366px;
+
+    /* Gradient */
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+body{
+    background: var(--gradient);
+    color: var(--purple);
+    font: var(--body1);
+    min-block-size: 100vh;
+    margin: 0;
+}
+
+#mailer{
+    display: none;
+}
